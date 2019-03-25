@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Min Jin</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Thonburi' rel='stylesheet'>
+
+  </head>
+  <body>
+      <header id="skip">
+        <a href="#main">Main Content</a>
+      </header>
+      <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo selected">minjin</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="aboutme.html" class="nav-links">about</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="nav-links">work</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="nav-links">resume</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="main" class="content">
+          <div>
+          <h1>I'm Min Jin, a Digital Product Designer</h1>
+          <p> Pursuing M.S. in HCI at the
+            <a href="https://www.si.umich.edu/" target="_blank"><span class ="michcolor"> University of Michigan</span></a>, <i class="fas fa-graduation-cap"></i> Summer 2020<br>
+            UX Design Intern at
+            <a href="lexmark.html" target="_blank"><span class ="lexmarkcolor">Lexmark</span></a>, Summer 2019<br>
+            Former Student UX Designer at
+            <a href="comericabank.html" target="_blank"><span class ="comericabankcolor">Comerica Bank</span></a>, Winter 2019</p>
+          </div>
+          <div class= "textcenter">
+            <i class="fas fa-arrow-down"></i>
+          </div>
+          <div class= "workcontainer">
+            <div class="row">
+              <div class="column">
+                  <a href="vegout.html">
+                    <img src="images/artboardveg.png" style="width:100%" class= "animation" alt= "Vegout">
+                  </a>
+                  <!-- <img src="images/underwater.jpg" style="width:100%">
+                  <img src="images/falls2.jpg" style="width:100%">
+                  <img src="images/paris.jpg" style="width:100%">
+                  <img src="images/nature.jpg" style="width:100%">
+                  <img src="images/mist.jpg" style="width:100%">
+                  <img src="images/paris.jpg" style="width:100%"> -->
+                </div>
+                <div class="column">
+                  <a href="michiganmedicine.html">
+                    <img src="images/artboardmichmed.png" style="width:100%" class= "animation" alt= "MichMed">
+                  </a>
+                  <!-- <img src="images/ocean.jpg" style="width:100%">
+                  <img src="images/wedding.jpg" style="width:100%">
+                  <img src="images/mountainskies.jpg" style="width:100%">
+                  <img src="images/rocks.jpg" style="width:100%">
+                  <img src="images/underwater.jpg" style="width:100%"> -->
+                </div>
+                <div class="column">
+                  <img src="images/google.jpg" style="width:100%" alt= "Google">
+                  <!-- <img src="images/rocks.jpg" style="width:100%">
+                  <img src="images/falls2.jpg" style="width:100%">
+                  <img src="images/paris.jpg" style="width:100%">
+                  <img src="images/nature.jpg" style="width:100%">
+                  <img src="images/mist.jpg" style="width:100%">
+                  <img src="images/paris.jpg" style="width:100%"> -->
+                </div>
+                <div class="column">
+                  <img src="images/lexmark.png" style="width:100%" alt= "Lexmark">
+                  <!-- <img src="images/ocean.jpg" style="width:100%">
+                  <img src="images/wedding.jpg" style="width:100%">
+                  <img src="images/mountainskies.jpg" style="width:100%">
+                  <img src="images/rocks.jpg" style="width:100%">
+                  <img src="images/underwater.jpg" style="width:100%"> -->
+                </div>
+              </div>
+            </div>
+        </main>
+        <div class="rightspace1"></div>
+        <div class="rightspace2"></div>
+        <div class=bottomnavleft></div>
+        <div class="bottomnav"></div>
+      <footer>
+        <details>
+          <summary>&copy; 2018 Min Jin Kim</summary>
+          <p>All content and graphics on this web site are the property of the Min Jin Kim.</p>
+        </details>
+      </footer>
+
+      <script>
+      let mainNav = document.getElementById('js-menu');
+      let navBarToggle = document.getElementById('js-navbar-toggle');
+
+      navBarToggle.addEventListener('click', function () {
+
+          mainNav.classList.toggle('active');
+      });
+      </script>
+  </body>
+</html>
